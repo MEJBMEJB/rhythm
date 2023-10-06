@@ -50,7 +50,7 @@ public class MusicListEvent : MonoBehaviour
     {
         _musicList = new List<musicInfo>();
 
-        //À½¾Ç¸®½ºÆ® ÃÊ±âÈ­
+        //ìŒì•…ë¦¬ìŠ¤íŠ¸ ì´ˆê¸°í™”
         #region InitMusicList
         musicInfo tmp = new musicInfo();
         tmp.setInfo("POP STARS", "KDA");
@@ -59,18 +59,18 @@ public class MusicListEvent : MonoBehaviour
         tmp.setInfo("DragonRider", "Two Steps From Hell");
         _musicList.Add(tmp);
 
-        tmp.setInfo("½´ÆÛ°¶·°½Ã ·³ºí Login", "LOL");
+        tmp.setInfo("ìŠˆí¼ê°¤ëŸ­ì‹œ ëŸ¼ë¸” Login", "LOL");
         _musicList.Add(tmp);
 
         tmp.setInfo("HIT", "Seventeen");
         _musicList.Add(tmp);
 
-        tmp.setInfo("BUNGEE", "¿À¸¶ÀÌ°É");
+        tmp.setInfo("BUNGEE", "ì˜¤ë§ˆì´ê±¸");
         _musicList.Add(tmp);
 
         #endregion
 
-        //À½¾Ç¼±ÅÃ¹öÆ° À§Ä¡ ÃÊ±âÈ­
+        //ìŒì•…ì„ íƒë²„íŠ¼ ìœ„ì¹˜ ì´ˆê¸°í™”
         #region InitMusicButtonPosition
         GameObject objTmp;
         objTmp = Instantiate(_soundHelper, Vector3.zero, Quaternion.identity);
@@ -85,7 +85,7 @@ public class MusicListEvent : MonoBehaviour
         //        objTmp.gameObject.transform.position = _otherPos.position;
 
             objTmp.name = i.ToString();
-            objTmp = GameObject.Find(objTmp.name);
+            objTmp = GameObject.Find(objTmp.name); //í”„ë¦¬íŒ¹ ìƒì„± ì´ë¦„ì€ indexë¡œ í•œë‹¤.
             objTmp.GetComponent<SelectMusicButton>().musicName = _musicList[i].getString(0);
             objTmp.GetComponent<SelectMusicButton>().artistName = _musicList[i].getString(1);
         }
@@ -124,7 +124,7 @@ public class MusicListEvent : MonoBehaviour
         Debug.Log($"Next = {MoveSceneManger.Instance.currentSelectIndex}");
     }
 
-    private void SetListPosition(int curNum) //Æ÷Áö¼ÇÀ» ¸ÂÃá´Ù
+    private void SetListPosition(int curNum) //í¬ì§€ì…˜ì„ ë§ì¶˜ë‹¤
     {
         GameObject objCur, objOther;
 
@@ -142,7 +142,7 @@ public class MusicListEvent : MonoBehaviour
                 objOther.transform.position = _otherPos.position;
             }
         }
-        //¼Ò¸®Àç»ı
+        //ì†Œë¦¬ì¬ìƒ
         SoundManager.soundInstance.PlaySound(curNum);
     }
 }
