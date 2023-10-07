@@ -46,38 +46,6 @@ public class MoveSceneManger : MonoBehaviour
         SceneManager.LoadScene("ResultScene");
     }
 
-    //public void SelectMusic_Prev()
-    //{
-    //    GameObject objTmp;
-    //    objTmp = GameObject.Find("Canvas");
-    //    int value = objTmp.GetComponent<MusicListEvent>().ListCount();
-    //    if (_currentIndex == 0)
-    //    {
-    //        _currentIndex = value - 1;
-    //    }
-    //    else
-    //    {
-    //        _currentIndex--;
-    //    }
-    //    Debug.Log($"Prev = {_currentIndex}");
-    //}
-    //
-    //public void SelectMusic_Next()
-    //{
-    //    GameObject objTmp;
-    //    objTmp = GameObject.Find("Canvas");
-    //    int value = objTmp.GetComponent<MusicListEvent>().ListCount();
-    //    if (_currentIndex == value - 1)
-    //    {
-    //        _currentIndex = 0;
-    //    }
-    //    else
-    //    {
-    //        _currentIndex++;
-    //    }
-    //    Debug.Log($"Next = {_currentIndex}");
-    //}
-
     public void MoveScene_MainGame()
     {
         switch (_currentIndex) 

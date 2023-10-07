@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Thumbnail
+  m_EditorClassIdentifier: 
+  m_GroupName: Thumbnail
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6dee47781ecced74ca1d6d28fef11fda
+  m_SerializeEntries:
+  - m_GUID: 2a0f9869575fedb4091c092dbcba59b7
+    m_Address: Assets/03.Resource/03-02.Resource_Image/song0.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThumbNail
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 809d968755d55d44c9b2f3c612e2b8a1
+    m_Address: Assets/03.Resource/03-02.Resource_Image/song1.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ThumbNail
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 065891f95cfb00c4ea5d9ed17a2e1667, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4f15548252bca9447905266e74e4ccd0, type: 2}
+    - {fileID: 11400000, guid: 0258427ea49747c40ad0a10c8d5b54f6, type: 2}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameBGM
+  m_EditorClassIdentifier: 
+  m_GroupName: GameBGM
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f913cbd27f57e04458707e0a23f8ca11
+  m_SerializeEntries:
+  - m_GUID: 4f061a44b56cf2e4aadcc73716829894
+    m_Address: Assets/03.Resource/03-00.Resource_BGM/song0.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGMList
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dd498eadc3bc1049a8bea485bf855b8
+    m_Address: Assets/03.Resource/03-00.Resource_BGM/song1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGMList
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68c1b64012babd744be5b90fb061a31c
+    m_Address: Assets/03.Resource/03-00.Resource_BGM/song2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGMList
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63e83f4810219da49b491383f9c270a7
+    m_Address: Assets/03.Resource/03-00.Resource_BGM/song3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGMList
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a141ec4b375fc3145b13701b29532c6b
+    m_Address: Assets/03.Resource/03-00.Resource_BGM/song4.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BGMList
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 065891f95cfb00c4ea5d9ed17a2e1667, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 544e0316dbde1f94f83d9d8b214e0c27, type: 2}
+    - {fileID: 11400000, guid: 8c9230f9584691b4b897eea07ff7c983, type: 2}
